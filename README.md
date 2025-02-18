@@ -1,5 +1,7 @@
 # JavaScriptでWeb小説のタイトルを分割する方法を比較します
 
+結果は [result.json](/result.json) にあります。
+
 ```sh
 bun run -A index.ts
 ```
