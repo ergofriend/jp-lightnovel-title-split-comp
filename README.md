@@ -3,7 +3,7 @@
 結果は [result.json](/result.json) にあります。
 
 ```sh
-bun run -A index.ts
+deno run -A --env-file=.env.local index.ts
 ```
 
 ## related links
