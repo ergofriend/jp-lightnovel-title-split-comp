@@ -4,6 +4,7 @@ import * as budoux from "./3-budoux.ts";
 import * as kuromoji from "./4-kuromoji.ts";
 import * as wakachigaki from "./5-wakachigaki.ts";
 import * as sudachi from "./6-sudachi.ts";
+import * as llm from "./7-llm.ts";
 
 const texts = [
 	"転生してハイエルフになりましたが、スローライフは１２０年で飽きました",
@@ -13,7 +14,7 @@ const texts = [
 	"オールラウンダーズ!!　転生したら幼女でした。家に居づらいのでおっさんと冒険に出ます（web版）",
 ];
 
-const parsers = [intl, tiny, budoux, kuromoji, wakachigaki, sudachi];
+const parsers = [intl, tiny, budoux, kuromoji, wakachigaki, sudachi, llm];
 
 type Result = {
 	text: string;
